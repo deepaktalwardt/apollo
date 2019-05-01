@@ -127,3 +127,6 @@ To launch apollo, first launch and enter a container as described in the previou
     - Select a destination by clicking on a lane line and clicking **Submit Route**.
     - Watch the vehicle navigate to the destination.
     - To stop the docker container run the `dev_stop.sh` script in `apollo/docker/scripts` in a new terminal (not in the docker container).
+
+* Notes:
+    kill docker process: docker rm $(sudo docker ps -a -q)
